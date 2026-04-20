@@ -1,4 +1,48 @@
-# DB-Backup-Recovery-Automation-Prj2-Prj7
+# BLM4522 – Ağ Tabanlı Paralel Dağıtım Sistemleri
 
+Bu repo, BLM4522 dersi kapsamında hazırlanan proje çalışmalarını içermektedir.  
+Tüm projeler **Microsoft SQL Server 2022 Developer Edition** üzerinde **AdventureWorks2022** örnek veritabanı kullanılarak gerçekleştirilmiştir.
 
-https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2022.bak
+---
+
+## 📁 Proje Dizinleri
+
+### [📂 proje2](./proje2)
+**Veritabanı Yedekleme ve Felaketten Kurtarma Planı**
+
+AdventureWorks2022 veritabanı üzerinde kapsamlı bir yedekleme stratejisi oluşturulmuş ve felaketten kurtarma senaryoları uygulanmıştır.
+
+- Full, Differential ve Transaction Log yedeklemeleri
+- Felaket simülasyonu (DROP DATABASE) ve geri yükleme
+- Point-in-Time Restore ile belirli bir zamana geri dönme
+- RESTORE VERIFYONLY ile yedek doğrulama
+- msdb üzerinden yedekleme geçmişi raporlama
+
+---
+
+### [📂 proje7](./proje7)
+**Veritabanı Yedekleme ve Otomasyon Çalışması**
+
+Yedekleme işlemleri T-SQL ile otomatikleştirilmiş, SQL Server Agent ile zamanlanmış ve sonuçlar raporlanmıştır.
+
+- `BackupLog` tablosu ile yedekleme geçmişi takibi
+- `sp_AutoBackup` stored procedure (Full / Differential)
+- SQL Server Agent Job ile günlük 02:00 otomatik yedekleme
+- Hata senaryosu testi ve log kaydı
+- Günlük özet ve msdb raporlama sorguları
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+| Araç | Versiyon |
+|------|----------|
+| SQL Server | 2022 Developer Edition |
+| SSMS | 20 |
+| Veritabanı | AdventureWorks2022 |
+
+---
+
+## 📄 Rapor
+
+Projelere ait detaylı rapor `BLM4522_*_VizeRaporu.docx` dosyasında bulunmaktadır.
