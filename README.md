@@ -1,7 +1,9 @@
 # BLM4522 – Ağ Tabanlı Paralel Dağıtım Sistemleri
 
 Bu repo, BLM4522 dersi kapsamında hazırlanan proje çalışmalarını içermektedir.  
-Tüm projeler **Microsoft SQL Server 2022 Developer Edition** üzerinde **AdventureWorks2022** örnek veritabanı kullanılarak gerçekleştirilmiştir.
+Projeler **AdventureWorks2022** örnek veritabanı kullanılarak gerçekleştirilmiştir.
+
+https://learn.microsoft.com/tr-tr/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms
 
 ---
 
@@ -45,4 +47,4 @@ Yedekleme işlemleri T-SQL ile otomatikleştirilmiş, SQL Server Agent ile zaman
 
 ## 📄 Rapor
 
-Projelere ait detaylı rapor `BLM4522_*_VizeRaporu.docx` dosyasında bulunmaktadır.
+Projelere ait detaylı rapor `BLM4522_21290360_HuseyinTinaztepe_VizeRaporu.pdf` dosyasında bulunmaktadır.
