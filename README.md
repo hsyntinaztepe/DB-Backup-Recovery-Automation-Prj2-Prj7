@@ -3,6 +3,8 @@
 Bu repo, BLM4522 dersi kapsamında hazırlanan proje çalışmalarını içermektedir.  
 Projeler **AdventureWorks2022** örnek veritabanı kullanılarak gerçekleştirilmiştir.
 
+VİDEO LİNKİ: https://youtu.be/saMLoJvcOxU
+
 https://learn.microsoft.com/tr-tr/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms
 
 ---
